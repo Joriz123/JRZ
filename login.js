@@ -4,7 +4,7 @@ const password = document.getElementById("password");
 
 btn.addEventListener("click", (e) =>{
     e.preventDefault();
-    if (username.value =="server" && password.value == "server"){
+    if (username.value =="Gwapo" && password.value == "Ako"){
         alert("Successful Login");
         window.location.href =  "index.html";
     }else {
